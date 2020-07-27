@@ -1,0 +1,23 @@
+import './Menu.css';
+import React from 'react';
+
+import Logo from '../../assets/img/logo.png';
+import ButtonLink from './components/ButtonLink';
+import Button from '../Button';
+
+const Menu = () => {
+  return (
+    <header>
+      <nav className="Menu">
+        <a href="/">
+          <img className="Logo" src={Logo} alt="Bateraflix Logo" />
+        </a>
+        <Button as="a" href="/" className="ButtonLink">
+          Novo video
+        </Button>
+      </nav>
+    </header>
+  );
+};
+
+export default Menu;
