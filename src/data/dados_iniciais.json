@@ -1,25 +1,25 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Viradas (fills)",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "DRUM LESSON | Drum Fills - The Secret Spice",
+        "url": "https://www.youtube.com/watch?v=Sx-I45cqmyw"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "That Sneaky Drum Fill | Drum Lesson",
+          "url": "https://www.youtube.com/watch?v=isePEH06zig"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Drum Fills with Flam Accents... kinda",
+          "url": "https://www.youtube.com/watch?v=GW9Ex9bjkNg"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Drum Lesson: Simple Triplet Fill from mikeslessons.com",
+          "url": "https://www.youtube.com/watch?v=RGUHEQQ_KJI"
         },
         {
           "titulo": "Pare de chutar e aprenda a display: inline #01",
@@ -40,7 +40,7 @@
         {
           "titulo": "Base para aprender os frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+        }
       ]
     },
     {
@@ -66,7 +66,7 @@
         {
           "titulo": "API: Dicionário do Programador",
           "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+        },
         {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"

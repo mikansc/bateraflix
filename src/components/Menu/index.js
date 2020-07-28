@@ -7,16 +7,14 @@ import Button from '../Button';
 
 const Menu = () => {
   return (
-    <header>
-      <nav className="Menu">
-        <a href="/">
-          <img className="Logo" src={Logo} alt="Bateraflix Logo" />
-        </a>
-        <Button as="a" href="/" className="ButtonLink">
-          Novo video
-        </Button>
-      </nav>
-    </header>
+    <nav className="Menu">
+      <a href="/">
+        <img className="Logo" src={Logo} alt="Bateraflix Logo" />
+      </a>
+      <Button as="a" href="/" className="ButtonLink">
+        Novo video
+      </Button>
+    </nav>
   );
 };
 
