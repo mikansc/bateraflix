@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { categorias } from './data/dados_iniciais.json';
+import { categorias } from '../../data/dados_iniciais.json';
 
-import Menu from './components/Menu';
-import BannerMain from './components/BannerMain';
-import Footer from './components/Footer';
-import Carousel from './components/Carousel';
+import Menu from '../../components/Menu';
+import BannerMain from '../../components/BannerMain';
+import Footer from '../../components/Footer';
+import Carousel from '../../components/Carousel';
 
-function App() {
+function Home() {
   const renderedCarousel = categorias.map((categoria) => {
     return <Carousel category={categoria} />;
   });
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
