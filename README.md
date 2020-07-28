@@ -1,5 +1,5 @@
 
-<img src="../bateraflix/src/assets/img/logo.png" style="width: 180px; display: flex; justify-content: center;">
+<img src="./src/assets/img/logo.png" style="width: 180px; display: flex; justify-content: center;">
 
 
 **Bateraflix** é um projeto da #ImersãoReact da [Alura](https://www.alura.com.br/)
