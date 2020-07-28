@@ -4,6 +4,7 @@
 
 **Bateraflix** é um projeto da #ImersãoReact da [Alura](https://www.alura.com.br/)
 
+[Clique aqui para acessar a demonstração](https://bateraflix.vercel.app)
 #### (em desenvolvimento!)
 
 <hr>
