@@ -11,7 +11,6 @@ import CadastroCategoria from './pages/cadastro/Categoria';
 const Pagina404 = () => <div>Erro 404 Com animação</div>;
 // fazer um player aparecer quando o mouse permanecer em cima de um video por mais de 5 segundos
 // fazer o título do vídeo aparecer em cima do video com mouseover
-// melhorar o slider - fazer ele ficar infinito e com efeito de crescimento no item
 
 ReactDOM.render(
   <BrowserRouter>

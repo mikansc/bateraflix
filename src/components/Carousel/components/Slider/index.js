@@ -63,10 +63,6 @@ const Container = styled.ul`
       );
     }
   }
-
-  .slick-list {
-    overflow: visible;
-  }
 `;
 
 export const SliderItem = styled.li`
