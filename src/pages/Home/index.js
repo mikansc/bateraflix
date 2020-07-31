@@ -8,8 +8,8 @@ import Footer from '../../components/Footer';
 import Carousel from '../../components/Carousel';
 
 function Home() {
-  const renderedCarousel = categorias.map((categoria) => {
-    return <Carousel category={categoria} />;
+  const renderedCarousel = categorias.map((categoria, idx) => {
+    return <Carousel key={idx} category={categoria} />;
   });
   return (
     <div style={{ background: '#141414' }}>
