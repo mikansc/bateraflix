@@ -31,9 +31,7 @@ function CadastroCategoria() {
   };
 
   useEffect(() => {
-    const URL_TOP = window.location.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://bateraflix.herokuapp.com/categorias';
+    const URL_TOP = 'https://bateraflix.herokuapp.com/categorias';
     fetch(URL_TOP).then(async (res) => {
       const data = await res.json();
       setCategorias([...data]);
