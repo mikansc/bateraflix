@@ -72,13 +72,15 @@ const Input = styled.input`
   }}
 `;
 
-const FormField = ({ value, onChange, name, type, label }) => {
+const FormField = ({ value, onChange, name, type, label, suggestions }) => {
   const fieldId = `id_${name}`;
   // Aqui, uma estratégia para o código ficar mais legível.
   // Armazenamento de uma boolean que será usada para o operador ternario
-  const isTextArea = type === 'textarea';
-  const tag = isTextArea ? 'textarea' : 'input';
+  const isTypeTextArea = type === 'textarea';
+  const tag = isTypeTextArea ? 'textarea' : 'input';
   // ------------------
+  const hasSuggestions = Boolean(suggestions.length);
+
   return (
     <FormFieldWrapper>
       <Label htmlFor={fieldId} />
@@ -89,8 +91,24 @@ const FormField = ({ value, onChange, name, type, label }) => {
         type={type}
         value={value}
         onChange={onChange}
+        autocomplete={hasSuggestions ? 'off' : 'on'}
+        list={hasSuggestions ? `suggestionFor_${fieldId}` : undefined}
       />
       <Label.Text>{label} :</Label.Text>
+      {hasSuggestions && (
+        <datalist id={`suggestionFor_${fieldId}`}>
+          {suggestions.map((suggestion) => {
+            return (
+              <option
+                value={suggestion}
+                key={`suggestionFor_${fieldId}_option_${suggestion}`}
+              >
+                {suggestion}
+              </option>
+            );
+          })}
+        </datalist>
+      )}
     </FormFieldWrapper>
   );
 };
@@ -100,6 +118,7 @@ FormField.defaultProps = {
   value: '',
   onChange: () => {},
   as: 'input',
+  suggestions: [],
 };
 
 FormField.propTypes = {
@@ -108,6 +127,7 @@ FormField.propTypes = {
   value: propTypes.string,
   type: propTypes.string,
   onChange: propTypes.func,
+  suggestions: propTypes.arrayOf(propTypes.string),
 };
 
 export default FormField;
