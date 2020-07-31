@@ -2,15 +2,185 @@
   "categorias": [
     {
       "id": 1,
-      "name": "Stick Control",
+      "title": "Rudimentos",
       "description": "Categoria sobre Stick Control",
       "bgColor": "#cbd1ff"
     },
     {
       "id": 2,
-      "name": "Independencia",
+      "title": "Independencia",
       "description": "Categoria sobre independencia",
+      "bgColor": "#9a88f3"
+    },
+    {
+      "id": 3,
+      "title": "Técnicas com os pés",
+      "description": "Categoria sobre Técnicas com os pés",
+      "bgColor": "#900131"
+    },
+    {
+      "id": 4,
+      "title": "Fills",
+      "description": "Categoria sobre Fills",
+      "bgColor": "#884710"
+    },
+    {
+      "id": 5,
+      "title": "Grooves",
+      "description": "Categoria sobre Grooves",
+      "bgColor": "#817299"
+    },
+    {
+      "id": 6,
+      "title": "Stick tricks",
+      "description": "Categoria sobre Stick tricks",
       "bgColor": "#cbdd00"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 4,
+      "titulo": "3 Easy Drum Fills That Sound Hard",
+      "url": "https://www.youtube.com/watch?v=LZAHSmyZU0Q"
+    },
+    {
+      "id": 2,
+      "categoriaId": 4,
+      "titulo": "3 Easy Drum Fills That Sound Hard",
+      "url": "https://www.youtube.com/watch?v=LZAHSmyZU0Q"
+    },
+    {
+      "id": 3,
+      "categoriaId": 4,
+      "titulo": "That Sneaky Drum Fill | Drum Lesson",
+      "url": "https://www.youtube.com/watch?v=isePEH06zig"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Drum Fills with Flam Accents... kinda",
+      "url": "https://www.youtube.com/watch?v=GW9Ex9bjkNg"
+    },
+    {
+      "id": 5,
+      "categoriaId": 4,
+      "titulo": "Drum Lesson: Simple Triplet Fill from mikeslessons.com",
+      "url": "https://www.youtube.com/watch?v=RGUHEQQ_KJI"
+    },
+    {
+      "id": 6,
+      "categoriaId": 4,
+      "titulo": "20 MUST KNOW Drum Fills For Beginner Drummers | Drum Beats Online",
+      "url": "https://www.youtube.com/watch?v=e4cH_arnLDs"
+    },
+    {
+      "id": 7,
+      "categoriaId": 4,
+      "titulo": "The 17 Most Iconic Drum Fills",
+      "url": "https://www.youtube.com/watch?v=bG3mkXOBLZo"
+    },
+    {
+      "id": 8,
+      "categoriaId": 3,
+      "titulo": "All 40 Rudiments - Daily Drum Lesson",
+      "url": "https://www.youtube.com/watch?v=ht4a5CwHukY"
+    },
+    {
+      "id": 9,
+      "categoriaId": 3,
+      "titulo": "Lightning Fast Single Kick - Larnell Lewis",
+      "url": "https://www.youtube.com/watch?v=k8sTPNNh6hM"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "The Underrated Foot Technique You MUST Start Using Now | Kick Drum Technique",
+      "url": "https://www.youtube.com/watch?v=piylIHW3xtE"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "How To Play Single Pedal Triples - Rashid Williams",
+      "url": "https://www.youtube.com/watch?v=9HchFhAY0Nw"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "One Simple Exercise To Better Your Single Pedal Speed - Drum Lesson (Drumeo)",
+      "url": "https://www.youtube.com/watch?v=zjRqBIxxdrg"
+    },
+    {
+      "id": 13,
+      "categoriaId": 1,
+      "titulo": "All 40 Rudiments - Daily Drum Lesson",
+      "url": "https://www.youtube.com/watch?v=WSC7iujjg_o"
+    },
+    {
+      "id": 14,
+      "categoriaId": 1,
+      "titulo": "How To Play 26 rudiments (by My Drum School)",
+      "url": "https://www.youtube.com/watch?v=5xK2seFUuyA"
+    },
+    {
+      "id": 15,
+      "categoriaId": 1,
+      "titulo": "The ONLY 3 RUDIMENTS You NEED TO DO In 2020! 🔥Practice Aid Video",
+      "url": "https://www.youtube.com/watch?v=pILu7TQJ87I"
+    },
+    {
+      "id": 16,
+      "categoriaId": 1,
+      "titulo": "5 Hybrid Rudiments That Every Drummer Should Know",
+      "url": "https://www.youtube.com/watch?v=U5bIwdUyc6g"
+    },
+    {
+      "id": 17,
+      "categoriaId": 1,
+      "titulo": "The Real Rudiments Of Drumming - Drum Lesson (Drumeo)",
+      "url": "https://www.youtube.com/watch?v=8w3E7EhFRgQ"
+    },
+    {
+      "id": 18,
+      "categoriaId": 2,
+      "titulo": "Drumming Limb Independence Practice Tips 🥁 | Drum Lesson",
+      "url": "https://www.youtube.com/watch?v=vYeKtWgRQSA"
+    },
+    {
+      "id": 19,
+      "categoriaId": 2,
+      "titulo": "Drumming Limb Independence Practice Tips | Drum Lesson      ",
+      "url": "https://www.youtube.com/watch?v=fdHYe4B87OA"
+    },
+    {
+      "id": 20,
+      "categoriaId": 2,
+      "titulo": "3 COOL EXERCISES TO DO If Your COORDINATION SUCKS! 🔥 (Beginner / Intermediate)",
+      "url": "https://www.youtube.com/watch?v=jAnNlVPu4NU"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Advanced Linear Groove 1",
+      "url": "https://www.youtube.com/watch?v=4iQloUnC2e4"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "DRUM LESSON - Triplet Groove - by Mike Johnston",
+      "url": "https://www.youtube.com/watch?v=yiNu7PJ_okk"
+    },
+    {
+      "id": 23,
+      "categoriaId": 6,
+      "titulo": "Stick Trick lesson",
+      "url": "https://www.youtube.com/watch?v=XNTm7xs1b-U"
+    },
+    {
+      "titulo": "Teste de inclusao",
+      "url": "https://www.youtube.com/watch?v=pKJN7hRXQhc",
+      "categoriaId": 6,
+      "id": 24
     }
   ]
 }

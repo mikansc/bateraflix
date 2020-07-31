@@ -1,53 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useForm from '../../../hooks/useForm';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import categoriasRepository from '../../../repositories/categorias';
+
+const initialValues = { title: '', description: '', bgColor: '#455582' };
 
 function CadastroCategoria() {
+  const { values, handleChange, clearForm } = useForm(initialValues);
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState({
-    name: '',
-    description: '',
-    bgColor: '#455582',
-  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setCategorias([...categorias, values]);
-    setValues({ name: '', description: '', bgColor: '' });
-  };
-
-  const setValue = (key, value) => {
-    setValues({
-      ...values,
-      // set the key valye to be the key string parameter using [key]
-      [key]: value,
-    });
-  };
-
-  const handleChange = (event) => {
-    setValue(event.target.getAttribute('name'), event.target.value);
+    clearForm();
   };
 
   useEffect(() => {
-    const URL_TOP = 'https://bateraflix.herokuapp.com/categorias';
-    fetch(URL_TOP).then(async (res) => {
-      const data = await res.json();
-      setCategorias([...data]);
-    });
+    categoriasRepository
+      .fetchCategoriesWithVideos()
+      .then((result) => {
+        setCategorias(result);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
   }, []);
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values.name}</h1>
+      <h1>Cadastro de Categoria: {values.title}</h1>
 
       <form onSubmit={handleSubmit}>
         <FormField
           label="Nome da categoria"
-          name="name"
+          name="title"
           type="text"
-          value={values.name}
+          value={values.title}
           onChange={handleChange}
         />
         <FormField
@@ -71,7 +62,7 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((cat, idx) => {
-          return <li key={`${cat}-${idx}`}>{cat.name}</li>;
+          return <li key={`${cat}-${idx}`}>{cat.title}</li>;
         })}
       </ul>
 
