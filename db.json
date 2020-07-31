@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Stick Control",
+      "description": "Categoria sobre Stick Control",
+      "bgColor": "#cbd1ff"
+    },
+    {
+      "id": 2,
+      "name": "Independencia",
+      "description": "Categoria sobre independencia",
+      "bgColor": "#cbdd00"
+    }
+  ]
+}

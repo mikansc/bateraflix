@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState({
-    name: 'Teste',
-    description: 'Descrição',
+    name: '',
+    description: '',
     bgColor: '#455582',
   });
 
@@ -29,37 +30,44 @@ function CadastroCategoria() {
     setValue(event.target.getAttribute('name'), event.target.value);
   };
 
+  useEffect(() => {
+    const URL_TOP = 'http://localhost:8080/categorias';
+    fetch(URL_TOP).then(async (res) => {
+      const data = await res.json();
+      setCategorias([...data]);
+    });
+  }, []);
+
   return (
     <PageDefault>
       <h1>Cadastro de Categoria: {values.name}</h1>
 
       <form onSubmit={handleSubmit}>
-        <FormField value={values.name} onChange={handleChange} />
-        <div>
-          <label>
-            Descrição:
-            <textarea
-              name="description"
-              type="text"
-              value={values.description}
-              onChange={handleChange}
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Cor:
-            <input
-              name="bgColor"
-              type="color"
-              value={values.bgColor}
-              onChange={handleChange}
-            />
-          </label>
-        </div>
+        <FormField
+          label="Nome da categoria"
+          name="name"
+          type="text"
+          value={values.name}
+          onChange={handleChange}
+        />
+        <FormField
+          label="Descrição"
+          name="description"
+          type="textarea"
+          value={values.description}
+          onChange={handleChange}
+        />
+        <FormField
+          label="Cor"
+          name="bgColor"
+          type="color"
+          value={values.bgColor}
+          onChange={handleChange}
+        />
 
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
       </form>
+      {!categorias.length && <div>Loading... </div>}
 
       <ul>
         {categorias.map((cat, idx) => {
