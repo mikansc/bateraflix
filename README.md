@@ -48,18 +48,20 @@ A ideia do projeto é oferecer uma plataforma de acesso à conteúdo de estúdo 
 
 ## ⚙ Funcionalidades
 
-- <p style="display: inline; margin-right: 10px;"></p>O usuário pode cadastrar um vídeo do YouTube:
+<p style="margin-top: 20px">
 
-  - <p style="display: inline; margin-right: 10px;">👉</p> Acessar "Novo vídeo"
-  - <p style="display: inline; margin-right: 10px;">👉</p> Inserir título do vídeo, link e categoria
-  - <p style="display: inline; margin-right: 10px;">👉</p> A categoria é sugerida pelo próprio aplicativo
-  - <p style="display: inline; margin-right: 10px;">👉</p> Clicar em cadastrar
+👉 O usuário pode cadastrar um vídeo do YouTube:
 
-- <p style="display: inline; margin-right: 10px;"></p>O usuário pode cadastrar uma categoria de vídeo
+- Acessar "Novo vídeo"
+- Inserir título do vídeo, link e categoria
+- A categoria é sugerida pelo próprio aplicativo
+- Clicar em cadastrar
 
-  - <p style="display: inline; margin-right: 10px;">👉</p> Acessar "Novo vídeo"
-  - <p style="display: inline; margin-right: 10px;">👉</p> Acessar "Cadastrar categoria"
-  - <p style="display: inline; margin-right: 10px;">👉</p> Inserir o nome da categoria, descrição e cor da etiqueta
+👉 O usuário pode cadastrar uma categoria de vídeo
+
+- Acessar "Novo vídeo"
+- Acessar "Cadastrar categoria"
+- Inserir o nome da categoria, descrição e cor da etiqueta
 
 ---
 
