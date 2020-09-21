@@ -1,68 +1,14 @@
-[Clique aqui para acessar a demonstração](https://bateraflix.vercel.app)
-
-### Instalar dependencias e rodar aplicação
-
-```javascript
-npm install
-npm start
-```
-
-### Tecnologias utilizadas
-
-<table>
-<tr>
-<td>HTML</td>
-<td>CSS</td>
-<td>Styled-Components</td>
-<td>React JS</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
-
-### Todo
-
-- [ ] Implementar API do Youtube
-- [ ] Acrescentar categorias
-- [ ] Integrar com sistema de banco de dados
-
-<hr>
-
-Projeto idealizado por <img src="./public/alura-logo.svg" style="width: 50px; margin: 0 5px"> e estilizado por **Michael** **Nascimento**.
-
----
-
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/README-ecoleta?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
-
-  <a href="https://www.twitter.com/tgmarinho/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2FREADME-ecoleta">
+      
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mikansc/bateraflix">
+  <a href="https://github.com/mikansc/bateraflix/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mikansc/bateraflix">
   </a>
-  
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
+  <a href="https://bateraflix.vercel.app">
+    <img alt="Vercel Deploy" src="https://img.shields.io/static/v1?label=vercel&message=success&color=000000&style=<STYLE>&logo=vercel
+">
   </a>
-    
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/README-ecoleta?style=social">
-  </a>
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
-  </a>
-  
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
-    </a>
-  
- 
 </p>
 <h1 align="center">
     <img alt="BateraFlix" title="#Bateraflix" src="./src/assets/img/logo.png" />
@@ -70,7 +16,10 @@ Projeto idealizado por <img src="./public/alura-logo.svg" style="width: 50px; ma
 <p align="center">
 Bateraflix é um projeto da #ImersãoReact Alura
 </p>
-
+<p align="center">
+<img alt="Vercel Deploy" src="https://img.shields.io/static/v1?label=React%20JS&message=%20&color=61DAFB&style=flat-square&logo=react
+  ">
+  </p>
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
@@ -93,11 +42,13 @@ O projeto foi desenvolvido durante a **Semana React da** [<img src="./public/alu
 
 A ideia do projeto é oferecer uma plataforma de acesso à conteúdo de estúdo e entretenimento totalmente voltada para o instrumento, dentro de uma interface amigável e já conhecida.
 
+### [Clique aqui para acessar a demonstração](https://bateraflix.vercel.app)
+
 ---
 
 <p style="margin-top: 20px">
 
-## Funcionalidades
+## ⚙ Funcionalidades
 
 - <p style="display: inline; margin-right: 10px;"></p>O usuário pode cadastrar um vídeo do YouTube:
 
@@ -116,7 +67,7 @@ A ideia do projeto é oferecer uma plataforma de acesso à conteúdo de estúdo 
 
 <p style="margin-top: 20px">
 
-## Layout
+## 🎨 Layout
 
 O desenho do layout foi pensado mobile-first.
 
@@ -135,7 +86,7 @@ O desenho do layout foi pensado mobile-first.
 
 <p style="margin-top: 20px">
 
-## Como executar o projeto
+## 🔌 Como executar o projeto
 
 Este projeto é composto por um servidor simples (JSON Server) e React no front-end.
 
@@ -164,7 +115,7 @@ $ npm run dev
 
 ---
 
-<!-- <p style="margin-top: 20px">
+<p style="margin-top: 20px">
 
 ## 🛠 Tecnologias
 
@@ -172,20 +123,21 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Front-end**
 
-- **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
-- **[React Icons](https://react-icons.github.io/react-icons/)**
-- **[Axios](https://github.com/axios/axios)**
-- **[Leaflet](https://react-leaflet.js.org/en/)**
-- **[React Leaflet](https://react-leaflet.js.org/)**
-- **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+- **[React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+- **[Styled Components](https://styled-components.com/)**
+- **[React Slick](https://react-slick.neostack.com/)**
 
 #### **Server**
 
 - **[JSON Server](https://github.com/typicode/json-server)**
 
-> Veja o arquivo [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json) -->
+> Veja o arquivo [package.json](https://github.com/mikansc/bateraflix/blob/master/package.json)
+
+<p style="margin-top: 20px">
 
 ---
+
+<p style="margin-top: 20px">
 
 ## ✋ Autor
 
@@ -200,10 +152,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
+<p style="margin-top: 20px">
+
 ## 📝 Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
 ---
+
+<p style="margin-top: 20px">
 
 Layout do README baseado no layout feito com ❤️ por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
