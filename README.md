@@ -36,7 +36,7 @@ Bateraflix é um projeto da #ImersãoReact Alura
 
 Bateraflix - é um projeto baseado no Netflix com conteúdo voltado para músicos bateristas.
 
-O projeto foi desenvolvido durante a **Semana React da** [<img src="./public/alura-logo.svg" style="width: 50px; margin: 0 5px">](http://www.alura.com.br) e personalizado por **Michael** **Nascimento**.
+O projeto foi desenvolvido durante a **Semana React da** [<img src="./public/alura-logo.svg" style="width: 35px; margin: 0 5px">](http://www.alura.com.br) e personalizado por **Michael** **Nascimento**.
 
 A ideia do projeto é oferecer uma plataforma de acesso à conteúdo de estúdo e entretenimento totalmente voltada para o instrumento, dentro de uma interface amigável e já conhecida.
 
