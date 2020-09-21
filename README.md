@@ -17,8 +17,7 @@
 Bateraflix é um projeto da #ImersãoReact Alura
 </p>
 <p align="center">
-<img alt="Vercel Deploy" src="https://img.shields.io/static/v1?label=React%20JS&message=%20&color=61DAFB&style=flat-square&logo=react
-  ">
+<img alt="Made With ReactJS" src="https://img.shields.io/static/v1?label=React%20JS&message=%20&color=61DAFB&style=flat-square&logo=react">
   </p>
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
