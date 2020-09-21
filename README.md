@@ -5,7 +5,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mikansc/bateraflix">
   </a>
   <a href="https://bateraflix.vercel.app">
-    <img alt="Vercel Deploy" src="https://img.shields.io/static/v1?label=vercel&message=success&color=000000&style=<STYLE>&logo=vercel
+    <img alt="Vercel Deploy" src="https://img.shields.io/static/v1?label=vercel&message=success&color=000000&style=flat&logo=vercel
 ">
   </a>
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
