@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import PageDefault from '../../../components/PageDefault';
-import { Link, useHistory } from 'react-router-dom';
-import FormField from '../../../components/FormField';
-import useForm from '../../../hooks/useForm';
-import Button from '../../../components/Button';
-import videosRepository from '../../../repositories/videos';
-import categoriasRepository from '../../../repositories/categorias';
+import React, { useState, useEffect } from "react";
+import PageDefault from "../../../components/PageDefault";
+import { Link, useHistory } from "react-router-dom";
+import FormField from "../../../components/FormField";
+import useForm from "../../../hooks/useForm";
+import Button from "../../../components/Button";
+import videosRepository from "../../../repositories/videos";
+import categoriasRepository from "../../../repositories/categorias";
 
 const CadastroVideo = () => {
   const history = useHistory();
@@ -41,8 +41,8 @@ const CadastroVideo = () => {
               categoriaId: categoriaEscolhida.id,
             })
             .then(() => {
-              console.log('Video cadastrado.');
-              history.push('/');
+              console.log("Video cadastrado.");
+              history.push("/");
             })
             .catch((err) => {
               console.log(err.message);
@@ -74,10 +74,13 @@ const CadastroVideo = () => {
         />
 
         <Button>Cadastrar</Button>
+        <Button as={Link} to="/cadastro/categoria/">
+          Cadastrar Categoria
+        </Button>
+        <Button as={Link} to="/" bgColor="var(--mediumGray)">
+          Cancelar
+        </Button>
       </form>
-
-      <Link to="/">Ir para home</Link>
-      <Link to="/cadastro/categoria/">Cadastrar Categoria</Link>
     </PageDefault>
   );
 };
